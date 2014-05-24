@@ -10,13 +10,18 @@
    <header>
      <h1> COmputación en REd - CORE</h1>
      <nav> 
-         <a href="/">Home</a>    
-         <a href="/creditos">Créditos</a>
+        <a href="/">Home</a>    
+        <a href="/creditos.html">Créditos</a>
      </nav>
    </header>
   
    <section>
-     <%- body %>
+     <h2>Autores</h2>
+
+     <ul>
+         <li>Nombre del primer autor</li>
+         <li>Nombre del primer autor</li>
+     </ul>
    </section>
 
    <footer>
