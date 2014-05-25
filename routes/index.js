@@ -6,6 +6,10 @@ router.get('/', function(req, res) {
   res.render('index');
 });
 
+<<<<<<< HEAD
+=======
+
+>>>>>>> creditos
 router.get('/creditos',function(req,res,next) {
 
     res.render('creditos');
