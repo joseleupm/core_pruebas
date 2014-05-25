@@ -51,8 +51,7 @@ exports.search = function(req, res, next){
         })
         .error(function(error) {
             next(error);
-           });
-};
+   
 // GET /posts/33
 exports.show = function(req, res, next) {
    res.render('posts/show', {post: req.post});

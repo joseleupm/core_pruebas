@@ -22,6 +22,7 @@ router.get('/creditos',function(req,res,next) {
 router.param('postid',postController.load);  // autoload :postid
 
 router.get('/posts', postController.index);
+router.get('/posts/search', postController.search);
 router.get('/posts/new', postController.new);
 router.get('/posts/:postid([0-9]+)', postController.show);
 router.post('/posts', postController.create);

@@ -10,7 +10,13 @@ router.get('/', function(req, res) {
 });
 
 
-<<<<<<< HEAD
+
+router.get('/creditos',function(req,res,next) {
+
+    res.render('creditos');
+
+});
+
 /* Rutas de Posts */
 
 router.param('postid',postController.load);  // autoload :postid
@@ -23,12 +29,6 @@ router.get('/posts/:postid([0-9]+)/edit', postController.edit);
 router.put('/posts/:postid([0-9]+)', postController.update);
 router.delete('/posts/:postid([0-9]+)', postController.destroy);
 
-=======
-router.get('/creditos',function(req,res,next) {
 
-    res.render('creditos');
-
-});
->>>>>>> master
 module.exports = router;
 

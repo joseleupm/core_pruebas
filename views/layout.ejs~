@@ -12,12 +12,9 @@
      <h1> COmputación en REd - CORE</h1>
      <nav> 
          <a href="/">Home</a>    
-<<<<<<< HEAD
-         <a href="/posts">Posts</a>
-         <a href="/creditos.html">Créditos</a>
-=======
+   <a href="/posts">Posts</a>
          <a href="/creditos">Créditos</a>
->>>>>>> master
+
      </nav>
    </header>
   
